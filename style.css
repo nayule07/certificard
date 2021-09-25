@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Yanone+Kaffeesatz:wght@500&display=swap");
+
+body {
+  background-image: url("https://targettrust.com.br/wp-content/uploads/2021/05/Algoritmos-1.jpg");
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700px;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(236.85deg, #40e0d0 27.26%, #20b2aa 65%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700px;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400px;
+  line-height: 45px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
